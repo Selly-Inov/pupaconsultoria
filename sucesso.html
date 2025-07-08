@@ -2,10 +2,80 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Inscrição Confirmada</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #f4f8fc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      max-width: 500px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #2c3e50;
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      color: #555;
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #007bff;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    .logo {
+      margin-bottom: 25px;
+    }
+
+    .logo img {
+      max-height: 50px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Obrigado por se inscrever!</h1>
-  <p>Em breve você receberá o conteúdo no seu e-mail.</p>
+  <div class="card">
+    <div class="logo">
+      <!-- Substitua pela sua logo se quiser -->
+      <!-- <img src="https://seusite.com/logo.png" alt="Logo da empresa"> -->
+    </div>
+    <h1>✅ Inscrição confirmada com sucesso!</h1>
+    <p>Obrigado por se inscrever. Em breve você receberá o conteúdo exclusivo diretamente no seu e-mail.</p>
+    <a class="btn" href="https://selly-inov.github.io/pupaconsultoria">Voltar ao site</a>
+  </div>
 </body>
 </html>
